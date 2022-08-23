@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/mvp.css">
+</head>
+<body>
+    <section>
+        <form action="">
+            <h1>Formulario de contacto</h1>
+            <label for="nombre">Nombre</label>
+            <input id="nombre" type="text">
+            <label for="apellido">Apellido</label>
+            <input id="apellido" type="text">
+            <label for="fecha">Fecha de Nacimiento</label>
+            <input type="date">
+            <label for="opciones">Provincia</label>
+            <select name="opcion" id="opciones">
+                <optgroup label="Centro">
+                    <option value="">Buenos Aires</option>
+                    <option value="">Cordoba</option>
+                </optgroup>
+                <optgroup label="Sur">
+                    <option value="">Santa Cruz</option>
+                    <option value="">Tierra del Fuego</option>
+                </optgroup>                
+            </select>
+            <label for="checkbox"><input id="checkbox" type="checkbox">Acepta las condiciones?</label>
+            <label for="email">Email:</label>
+            <input id="email" type="email">
+            <label for="consulta">Consulta</label>
+            <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea>
+            <label for="pass">Password</label>
+            <input id="pass" type="password" maxlength="4">
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+        </form>
+    </section>
+    
+</body>
+</html>
